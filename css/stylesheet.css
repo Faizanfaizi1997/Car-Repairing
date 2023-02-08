@@ -1,0 +1,611 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+html{
+    scroll-behavior: smooth !important;
+	scroll-padding: 79px;
+}
+
+
+/* -----********** Header Start **********----- */
+#header .logo img{
+    width: 40%;
+}
+
+
+#header .mail-icon{
+    display: flex;
+    justify-content: end;
+    margin: 15px 0 0 0;
+}
+#header .mail-icon img{
+    width: 32px;
+}
+#header .mail-icon span{
+    margin: 0 0 0 8px;
+    font-size: 16px;
+    font-weight: 600;
+}
+#header .mail-icon p{
+    padding: 4.8px 0 0 0;
+}
+#header .mail-icon a{
+    color: #000;
+    transition: all ease-in-out 0.2s;
+    text-decoration: none;
+}
+#header .mail-icon a:hover{
+    color: #F2184F;
+    text-decoration: underline;
+}
+
+
+#header .location-icon{
+    margin: 15px 0 0 0;
+}
+#header .location-icon img{
+    width: 18px;
+}
+#header .location-icon span{
+    margin: 0 0 0 8px;
+    font-size: 16px;
+    font-weight: 600;
+}
+#header .location-icon a{
+    color: #000;
+    transition: all ease-in-out 0.2s;
+    text-decoration: none;
+}
+#header .location-icon a:hover{
+    color: #F2184F;
+    text-decoration: underline;
+}
+/* -----********** Header End **********----- */
+
+
+/* -----********** Navbar Start **********----- */
+#navbar .bg-color{
+    background-color: #2e375f;
+}
+#navbar .navbar{
+    padding: 20px 0;
+}
+#navbar .nav-link{
+    color: #fff;
+    transition: all ease-in-out 0.3s;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 400;
+}
+#navbar .nav-link:hover{
+    color: #F2184F;
+}
+
+.search-box input {
+    border-radius: 5px;
+    border: 0;
+    padding: 0;
+    width: 0;
+    height: 48px;
+    transition: padding 0.6s ease-in-out,
+        width 0.6s ease-in-out;
+}
+.search-box:hover > input{
+    display: inline-block;
+    border-radius: 5px;
+    width: 220px;
+    outline: none;
+    color: whitesmoke;
+    padding: 8px;
+    border: 1px solid whitesmoke;
+}
+#navbar button{
+    --bs-btn-padding-x: 1.25rem;
+}
+/* -----********** Navbar End **********----- */
+
+
+/* -----********** Slider Start **********----- */
+#slider .carousel-item{
+    background: url("../images/banner.png");
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+}
+#slider .carousel-caption{
+    bottom: 50px;
+}
+#slider .carousel-caption h5{
+    font-size: 50px;
+    font-weight: 700;
+    color: #f22613;
+}
+#slider .carousel-caption p{
+    font-size: 18px;
+    color: #fff;
+    width: 60%;
+    margin: 0 auto 20px auto;
+}
+#slider .carousel-caption .button{
+    padding: 10px 30px;
+    text-decoration: none;
+    transition: all ease-in-out 0.3s;
+    color: #fff;
+    background-color: #2e375f;
+    font-weight: 400;
+    border-radius: 5px;
+}
+#slider .carousel-caption .button:hover{
+    color: #2e375f;
+    background-color: #fff;
+}
+
+/* -----********** Slider End **********----- */
+
+
+/* -----********** Services Start **********----- */
+#services{
+    padding: 30px 0;
+}
+#services .service-main-heading h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 50px;
+    color: #2e375f;
+}
+#services .service-main-heading span{
+    color: #f22613;
+}
+
+
+#services .service-card-1,
+#services .service-card-2,
+#services .service-card-3,
+#services .service-card-4,
+#services .service-card-5,
+#services .service-card-6{
+    text-align: center;
+    width: 70%;
+    margin: 0 auto 70px auto;
+    padding: 50px 20px 30px 20px;
+    box-shadow: 0 0px 8px 0 rgb(0 0 0 / 20%), 0 2px 30px 0 rgb(0 0 0 / 40%);
+    border-radius: 120px 120px 0px 0px;
+}
+#services .service-card-1 .service-img img,
+#services .service-card-2 .service-img img,
+#services .service-card-3 .service-img img,
+#services .service-card-4 .service-img img,
+#services .service-card-5 .service-img img,
+#services .service-card-6 .service-img img{
+    width: 45%;
+    margin-bottom: 20px;
+}
+#services .service-card-1 .service-heading h3,
+#services .service-card-2 .service-heading h3,
+#services .service-card-3 .service-heading h3,
+#services .service-card-4 .service-heading h3,
+#services .service-card-5 .service-heading h3,
+#services .service-card-6 .service-heading h3{
+    font-size: 16px;
+    font-weight: 500;
+    color: #2e375f;
+    margin-bottom: 20px;
+}
+#services .service-card-1 .service-text p,
+#services .service-card-2 .service-text p,
+#services .service-card-3 .service-text p,
+#services .service-card-4 .service-text p,
+#services .service-card-5 .service-text p,
+#services .service-card-6 .service-text p{
+    margin-bottom: 20px;    
+}
+#services .service-card-1 .service-text a,
+#services .service-card-2 .service-text a,
+#services .service-card-3 .service-text a,
+#services .service-card-4 .service-text a,
+#services .service-card-5 .service-text a,
+#services .service-card-6 .service-text a{
+    padding: 6px 15px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #2e375f;
+    font-weight: 400;
+    text-decoration: none;
+    transition: all ease-in-out 0.3s;
+}
+#services .service-card-1 .service-text a:hover,
+#services .service-card-2 .service-text a:hover,
+#services .service-card-3 .service-text a:hover,
+#services .service-card-4 .service-text a:hover,
+#services .service-card-5 .service-text a:hover,
+#services .service-card-6 .service-text a:hover{
+    color: #fff;
+    background-color: #f22613;
+}
+/* -----********** Services End **********----- */
+
+
+/* -----********** About Start **********----- */
+#about{
+    padding: 30px 0 50px 0;
+    background-color: #2e375f;
+}
+#about .about-main-heading h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 50px;
+    color: #fff;
+}
+#about .about-main-heading span{
+    color: #f22613;
+}
+
+#about .about-img{
+    text-align: center;
+    margin: auto;
+}
+#about .about-img img{
+    width: 70%;
+}
+
+#about .about-text h4{
+    font-size: 28px;
+    font-weight: 600;
+    color: #fff;
+}
+#about .about-text hr{
+    opacity: 1;
+    background-color: #fff;
+    height: 2px;
+}
+#about .about-text h4 span{
+    color: #f22613;
+}
+#about .about-text p{
+    font-size: 16px;
+    color: #fff;
+    text-align: justify;
+}
+/* -----********** About End **********----- */
+
+
+/* -----********** Prices Start **********----- */
+#prices{
+    padding: 30px 0 50px 0;
+}
+#prices .price-main-heading h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 50px;
+    color: #2e375f;
+}
+#prices .price-main-heading span{
+    color: #f22613;
+}
+
+#prices .price-card .card-1 .img,
+#prices .price-card .card-1 .img img,
+#prices .price-card .card-2 .img,
+#prices .price-card .card-2 .img img,
+#prices .price-card .card-3 .img,
+#prices .price-card .card-3 .img img,
+#prices .price-card .card-4 .img,
+#prices .price-card .card-4 .img img{
+    width: 100%;
+    border-radius: 100px 0 0 100px;
+}
+#prices .price-card .card-1 .text,
+#prices .price-card .card-2 .text,
+#prices .price-card .card-3 .text,
+#prices .price-card .card-4 .text{
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    background-color: #2e375f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#prices .price-card .card-1 .text button,
+#prices .price-card .card-2 .text button,
+#prices .price-card .card-3 .text button,
+#prices .price-card .card-4 .text button{
+    border: none;
+    background-color: #f22613;
+    color: #fff;
+    padding: 5px 20px;
+    font-size: 14px;
+    border-radius: 20px;
+    margin-top: 10px;
+    transition: all ease-in-out 0.3s;
+}
+#prices .price-card .card-1 .text button:hover,
+#prices .price-card .card-2 .text button:hover,
+#prices .price-card .card-3 .text button:hover,
+#prices .price-card .card-4 .text button:hover{
+    color: #f22613;
+    background-color: #fff;   
+}
+
+.carousel-indicators {
+    margin-bottom: -1rem;
+}
+.carousel-indicators [data-bs-target] {
+    width: 15px;
+    height: 15px;
+    background-color: #2e375f;
+    border-radius: 100%;
+    opacity: 1;
+}
+.carousel-indicators .active {
+    background-color: #f22613;
+}
+/* -----********** Prices End **********----- */
+
+
+/* -----********** Team Start **********----- */
+#teams{
+    padding: 30px 0 30px 0;
+    background-color: #2e375f;
+}
+#teams .teams-main-heading h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 50px;
+    color: #fff;
+}
+#teams .teams-main-heading span{
+    color: #f22613;
+}
+
+#teams .team-card-1,
+#teams .team-card-2,
+#teams .team-card-3,
+#teams .team-card-4{
+    text-align: center;
+}
+#teams .team-card-1 .img img,
+#teams .team-card-2 .img img,
+#teams .team-card-3 .img img,
+#teams .team-card-4 .img img{
+    text-align: center;
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    transition: transform 0.3s;
+}
+#teams .team-card-1 .img img:hover,
+#teams .team-card-2 .img img:hover,
+#teams .team-card-3 .img img:hover,
+#teams .team-card-4 .img img:hover{
+    transform: scale(1.1);
+}
+#teams .team-card-1 .text h5,
+#teams .team-card-2 .text h5,
+#teams .team-card-3 .text h5,
+#teams .team-card-4 .text h5{
+    color: #fff;
+    margin-bottom: 0;
+}
+#teams .team-card-1 .text p,
+#teams .team-card-2 .text p,
+#teams .team-card-3 .text p,
+#teams .team-card-4 .text p{
+    color: #F2184F;
+}
+/* -----********** Team End **********----- */
+
+
+/* -----********** Contact Start **********----- */
+#contact{
+    padding: 30px 0 50px 0;
+}
+#contact .contact-main-heading h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 50px;
+    color: #2e375f;
+}
+#contact .contact-main-heading span{
+    color: #f22613;
+}
+
+#contact .links .heading{
+    border-radius: 50px 0 50px 0;
+    padding: 15px 0 15px 30px;
+    margin-bottom: 50px;
+    color: #fff;
+    background-color: #2e375f;
+}
+
+#contact .links .mail{
+    padding: 10px 0 10px 15px;
+    background-color: #e4e0e0;
+}
+#contact .links .mail .fa-envelope{
+    font-size: 24px;
+    transition: all ease-in-out 0.3s;
+}
+#contact .links .mail .fa-envelope:hover{
+    color: #f22613;
+}
+#contact .links .mail span a{
+    font-size: 18px;
+    margin-left: 10px;
+    color: #000;
+    text-decoration: none;
+    transition: all ease-in-out 0.3s;
+}
+#contact .links .mail span a:hover{
+    color: #f22613;
+    text-decoration: underline;
+}
+
+#contact .links .facebook{
+    padding: 10px 0 10px 15px;
+    background-color: #e4e0e0;
+}
+#contact .links .facebook .fa-facebook-square{
+    font-size: 28px;
+    transition: all ease-in-out 0.3s;
+}
+#contact .links .facebook .fa-facebook-square:hover{
+    color: #f22613;
+}
+#contact .links .facebook span a{
+    font-size: 18px;
+    margin-left: 10px;
+    color: #000;
+    text-decoration: none;
+    transition: all ease-in-out 0.3s;
+}
+#contact .links .facebook span a:hover{
+    color: #f22613;
+    text-decoration: underline;
+}
+
+#contact .links .twitter{
+    padding: 10px 0 10px 15px;
+    background-color: #e4e0e0;
+}
+#contact .links .twitter .fa-twitter-square{
+    font-size: 28px;
+    transition: all ease-in-out 0.3s;
+}
+#contact .links .twitter .fa-twitter-square:hover{
+    color: #f22613;
+}
+#contact .links .twitter span a{
+    font-size: 18px;
+    margin-left: 10px;
+    color: #000;
+    text-decoration: none;
+    transition: all ease-in-out 0.3s;
+}
+#contact .links .twitter span a:hover{
+    color: #f22613;
+    text-decoration: underline;
+}
+
+#contact .links .phone{
+    padding: 10px 0 10px 15px;
+    background-color: #e4e0e0;
+}
+#contact .links .phone .fa-mobile-phone{
+    font-size: 30px;
+    transition: all ease-in-out 0.3s;
+}
+#contact .links .phone .fa-mobile-phone:hover{
+    color: #f22613;
+}
+#contact .links .phone span a{
+    font-size: 18px;
+    margin-left: 18px;
+    color: #000;
+    text-decoration: none;
+    transition: all ease-in-out 0.3s;
+}
+#contact .links .phone span a:hover{
+    color: #f22613;
+    text-decoration: underline;
+}
+
+#contact .form .heading{
+    border-radius: 50px 0 50px 0;
+    padding: 15px 0 15px 30px;
+    margin-bottom: 50px;
+    color: #fff;
+    background-color: #2e375f;
+}
+#contact .form input,
+#contact .form textarea{
+    background-color: #e4e0e0;
+}
+#contact .form .btn-color{
+    width: 100%;
+    font-weight: 500;
+    color: #fff;
+    background-color: #2e375f;
+}
+#contact .form .btn-color:hover{
+    color: #fff;
+    background-color: #f22613;
+}
+/* -----********** Contact End **********----- */
+
+
+/* -----********** Testimonial Start **********----- */
+#testimonials{
+    padding: 30px 0 30px 0;
+    background-image: url("/images/testimonial-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#testimonials .testimonial-main-heading h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 50px;
+    color: #fff;
+}
+
+#testimonials .testimonial-card img{
+    width: 100%;
+}
+/* -----********** Testimonial End **********----- */
+
+
+/* -----********** Footer Start **********----- */
+#footer{
+    color: #fff;
+    background-color: #2e375f;
+    padding: 50px 0 0 0;
+}
+
+#footer .logo img{
+    width: 100%;
+    margin-bottom: 30px;
+}
+#footer .text{
+    text-align: justify;
+}
+
+#footer .flex{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#footer .flex a{
+    color: #fff;
+    text-decoration: none;
+}
+#footer .flex a:hover{
+    color: #f22613;
+    text-decoration: none;
+}
+
+#footer .flex .days{
+    float: left;
+}
+#footer .flex .time{
+    float: left;
+    margin-left: 15px;
+}
+
+#copyright{
+    color: #fff;
+    background-color: #000;
+    padding: 20px 0;
+}
+#copyright .text{
+    text-align: center;
+}
+/* -----********** Footer End **********----- */
