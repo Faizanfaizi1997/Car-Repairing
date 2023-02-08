@@ -193,6 +193,16 @@
     margin-top: 20px;
 }
 /* -----********** Price End **********----- */
+
+
+/* -----********** Footer Start **********----- */
+#footer .logo{
+    text-align: center;
+}
+#footer .logo img{
+    width: 70%;
+}
+/* -----********** Footer End **********----- */
 }
 
 @media only screen and (max-width: 767px) and (min-width: 576px){
